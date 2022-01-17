@@ -1,15 +1,15 @@
-# Salut 👋
-Voici mes 2 mini programme de spam fait en python
+# Hello 👋
+Here are my 2 mini spam programs made in python
 
-#### Il y a 2 programme :
-* le premiers ( SpamBot_msg_unique ) spam autant de fois que demandé un message unique
-* le deuxième ( SpamBot ) spam tout le contenu du fichier txt_spamBot
+#### There is 2 programme :
+* First ( SpamBot_msg_unique ) spam as many times as requested a single message
+* seconde ( SpamBot ) spam all file content "txt_spamBot.txt"
 
-## Comment l'utiliser ?
-* Pour le premier, taper le nombre de fois a spam le message dans les parenthèse (L6) puis le message entre les guillemets (L7). 
-* Pour le deuxième, il suffit juste de mettre le texte que vous voulez spam dans le fichier txt_spamBot.
-* Enfin lancer le programme. Une fois lancé, vous avez 5 seconde pour mettre votre curseur dans une zone de texte.
+## How use it ?
+* For the first, type the number of times the message has been spammed in the brackets (Line 6) then the message between the quotation marks (Line 7).
+* For the second, just put the text you want to spam in the file txt_spamBot.
+* Finally launch the program. Once launched, you have 5 seconds to put your cursor in a text box.
 
-⚠ Le programme peut faire rammer votre ordinateur et votre connexion. Pour minimisé les problèmes, rajouté la ligne de code suivante a la fin de la boucle permet de mettre un cooldown entre chaque message.
+⚠ The program may cause your computer and connection to crawl. To minimize problems, add the following line of code at the end of the loop to put a cooldown between each message.
 ### `sleep(1)`
-Mettre entre parenthèse le nombre de seconde a attendre entre 2 messages.
+Put in brackets the number of seconds to wait between 2 messages.
